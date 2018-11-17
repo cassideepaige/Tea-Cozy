@@ -1,0 +1,36 @@
+/* Universal Styles */
+body {
+  background-color: black;
+  font-family: "helveics" sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  /*text-align: center;*/
+}
+
+/* Header */
+.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  flex-shrink: 1;
+}
+
+.nav {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+}
+
+/* Mission */
+
+
+/* Tea of the Month */
+
+
+/* Locations */
+
+
+/* Contact */
+
+
+/* Footer */
