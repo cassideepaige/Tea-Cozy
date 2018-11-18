@@ -1,7 +1,7 @@
 /* Universal Styles */
 body {
   background-color: black;
-  font-family: "helvetica" sans-serif;
+  font-family: helvetica;
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
@@ -79,18 +79,31 @@ body {
 
 #line1, #line2 {
   display: flex;
+  position: relative;
+  top: 150px;
   flex-flow: row wrap;
   align-items: center;
+}
+
+#line1 {
   justify-content: space-between;
   position: relative;
-  margin: 200px;
+  margin: 0 240px;
   text-align: center;
 }
 
-#line2 {
+#line1 .h4 {
   position: relative;
-
+  bottom: 10px;
 }
+
+#line2 {
+  justify-content: space-between;
+  position: relative;
+  margin: 0 400px;
+  text-align: center;
+}
+
 
 
 
