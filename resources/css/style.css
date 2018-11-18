@@ -16,6 +16,8 @@ body {
   flex-shrink: 1;
   border-bottom: 1px solid seashell;
   width: 100%;
+  z-index: 2;
+  background-color: black;
 }
 
 .logo {
@@ -49,6 +51,7 @@ body {
    position: relative;
    top: 70px;
    text-align: center;
+   z-index: 1;
 }
 
 #statement {
