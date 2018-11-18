@@ -20,6 +20,8 @@ body {
 
 .logo {
   height: 50px;
+  position: relative;
+  left: 10px;
 }
 
 .nav {
@@ -27,16 +29,33 @@ body {
   left: 950px;
   top: 20px;
   display: inline-flex;
+  color: seashell;
   justify-content: space-between;
 }
 
-.nav {
-  color: seashell;
-  padding-right: 20px;
+.mission,
+.locations,
+.featured, {
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
-
 /* Mission */
+.mission {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+   margin: 0 auto;
+   height: 700px;
+   width: 1200px;
+   position: relative;
+   top: 70px;
+   text-align: center;
+}
+
+#statement {
+  background-color: black;
+  position: relative;
+  top: 300px;
+}
 
 
 /* Tea of the Month */
