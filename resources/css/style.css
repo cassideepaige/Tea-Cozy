@@ -1,7 +1,7 @@
 /* Universal Styles */
 body {
   background-color: black;
-  font-family: "helveics" sans-serif;
+  font-family: "helvetica" sans-serif;
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
@@ -60,8 +60,55 @@ body {
   top: 300px;
 }
 
-
 /* Tea of the Month */
+
+.section2 .month {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.h4 {
+  text-align: center;
+}
+
+#teas {
+  height: 200px;
+  width: 300px;
+}
+
+#line1, #line2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 200px;
+  text-align: center;
+}
+
+#line2 {
+  position: relative;
+
+}
+
+
+
+
+
+/*.kinds-of-tea {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  padding: 2px;
+}*/
+
+
+
 
 
 /* Locations */
