@@ -4,22 +4,37 @@ body {
   font-family: "helveics" sans-serif;
   color: seashell;
   opacity: 0.9;
+  font-size: 22px;
   /*text-align: center;*/
 }
 
 /* Header */
 .header {
-  display: flex;
+  display: inline-flex;
   position: fixed;
   height: 69px;
   flex-shrink: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
 }
 
 .nav {
-  display: block;
-  text-align: center;
+  position: relative;
+  left: 950px;
+  top: 20px;
+  display: inline-flex;
   justify-content: space-between;
 }
+
+.nav {
+  color: seashell;
+  padding-right: 20px;
+}
+
 
 /* Mission */
 
