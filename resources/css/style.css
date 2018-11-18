@@ -61,7 +61,6 @@ body {
 }
 
 /* Tea of the Month */
-
 .section2 .month {
   position: relative;
   top: 150px;
@@ -104,28 +103,25 @@ body {
   text-align: center;
 }
 
-
-
-
-
-
-/*.kinds-of-tea {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  position: relative;
-  top: 150px;
-  left: 100px;
-  padding: 2px;
-}*/
-
-
-
-
-
 /* Locations */
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto; /*centers the image*/
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
 
+#locations {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+
+}
 
 /* Contact */
 
