@@ -62,50 +62,6 @@ body {
 
 /* Featured */
 
-.featured {
-  display: inline-block;
-  margin: 0 auto;
-  width: 1000px;
-  text-align: center;
-  position: relative;
-  top: 100px;
-  text-align: center;
-}
-
-.h4 {
-  text-align: center;
-}
-
-#teas {
-  height: 200px;
-  width: 300px;
-}
-
-#line1, #line2 {
-  display: flex;
-  position: relative;
-  top: 150px;
-  flex-flow: row wrap;
-  align-items: center;
-}
-
-#line1 {
-  justify-content: space-between;
-  position: relative;
-  margin: 0 240px;
-}
-
-#line1 .h4 {
-  position: relative;
-  bottom: 10px;
-}
-
-#line2 {
-  justify-content: space-between;
-  position: relative;
-  margin: 0 400px;
-}
-
 /* Locations */
 .locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
