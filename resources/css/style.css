@@ -13,6 +13,7 @@ body {
 .header {
   display: inline-flex;
   position: fixed;
+  top: 0px;
   height: 69px;
   flex-shrink: 1;
   border-bottom: 1px solid seashell;
@@ -24,6 +25,7 @@ body {
 .logo {
   height: 50px;
   position: relative;
+  top: 5px;
   left: 10px;
 }
 
