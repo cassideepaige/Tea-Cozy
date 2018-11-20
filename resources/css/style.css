@@ -5,6 +5,7 @@ body {
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
+  z-index: 1;
   /*text-align: center;*/
 }
 
@@ -51,7 +52,6 @@ body {
    position: relative;
    top: 70px;
    text-align: center;
-   z-index: 1;
 }
 
 #statement {
@@ -61,6 +61,29 @@ body {
 }
 
 /* Featured */
+.featured {
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+#line1,
+#line2 {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+#teas {
+  height: 200px;
+  width: 300px;
+  padding: 0 20px;
+}
+
+#tea-name{
+  position: relative;
+  bottom: 10px;
+}
 
 /* Locations */
 .locations {
