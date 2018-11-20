@@ -31,11 +31,12 @@ body {
 
 .nav {
   position: relative;
-  left: 950px;
+  left: 930px;
   top: 20px;
   display: inline-flex;
   color: seashell;
   justify-content: space-between;
+  margin-right: 10px;
 }
 
 .mission,
